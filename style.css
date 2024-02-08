@@ -6,7 +6,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(fundo.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/fundo.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -19,7 +19,7 @@
     justify-content: space-between;
 }
 .logo{
-    width: 120px;
+    width:135px;
     cursor: pointer;
 }
 .navbar ul li{
@@ -52,17 +52,18 @@
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: aquamarine;
 }    
 .content  h1{
     font-size: 35px;
     margin-top: 80px;
+    color: aquamarine;
 }
 .content p{
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
-}
+     color: #fff;
+  }  
 button{
     width: 200px;
     padding: 15px 0;
@@ -92,4 +93,8 @@ button:hover span{
 }
 button:hover{
     border: none;
+}
+.imgceo{
+    border-style: dashed;
+    width: 135px;
 }
