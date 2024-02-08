@@ -30,7 +30,7 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #fff;
+    color: white;
     text-transform: uppercase;
 }
 .navbar ul li::after{
@@ -52,7 +52,7 @@
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: #fff;
+    color: aquamarine;
 }    
 .content  h1{
     font-size: 35px;
